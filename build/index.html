@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Easybank landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="min-h-screen font-ff">
+    <header class="top-0 z-10 p-14 sm:py-11 sm:px-24">
+      <section class="flex justify-between">
+        <a href="#"><img src="images/logo.svg" alt="Easybanks" /></a>
+        <div>
+          <button
+            id="hamburger-button"
+            class="relative h-8 w-8 cursor-pointer text-3xl sm:hidden"
+          >
+            <div
+              class="absolute top-4 -mt-0.5 h-1 w-12 rounded bg-neutral-900 transition-all duration-500 before:absolute before:h-1 before:w-12 before:-translate-x-6 before:-translate-y-3 before:rounded before:bg-neutral-900 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-12 after:-translate-x-6 after:translate-y-3 after:rounded after:bg-neutral-900 after:transition-all after:duration-500 after:content-['']"
+            ></div>
+          </button>
+
+          <nav
+            class="hidden space-x-6 text-xs text-neutral-400 sm:block"
+            aria-label="main"
+          >
+            <a href="#" class="hover:opacity-90">Home</a>
+            <a href="#" class="hover:opacity-90">About</a>
+            <a href="#" class="hover:opacity-90">Contact</a>
+            <a href="#" class="hover:opacity-90">Blog</a>
+            <a href="#" class="hover:opacity-90">Career</a>
+          </nav>
+        </div>
+        <button class="hidden sm:block">Request Invite</button>
+      </section>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="bg-hero-pattern-mb bg-no-repeat sm:bg-hero-pattern">
+          <img src="images/image-mockups.png" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
