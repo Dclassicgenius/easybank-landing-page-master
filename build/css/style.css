@@ -573,6 +573,10 @@ video {
   cursor: pointer;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -754,6 +758,10 @@ video {
 
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .sm\:bg-hero-pattern {
