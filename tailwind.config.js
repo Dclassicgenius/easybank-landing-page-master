@@ -22,9 +22,13 @@ module.exports = {
         },
       },
 
-      backgroundImage: {
+      backgroundImage: (theme) => ({
         "hero-pattern-mb": "url('/build/images/bg-intro-mobile.svg')",
         "hero-pattern": "url('/build/images/bg-intro-desktop.svg')",
+      }),
+
+      backgroundPosition: {
+        "top-4": "top -3.65em left 1em",
       },
     },
   },
