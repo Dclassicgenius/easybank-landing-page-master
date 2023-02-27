@@ -252,41 +252,56 @@
       </article>
     </main>
 
-    <footer class="bg-primary-900 px-14 text-neutral-50">
-      <img src="images/logo.svg" alt="" class="fill-current" />
-      <ul class="">
-        <li>
-          <a href=""><img src="images/icon-facebook.svg" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="images/icon-youtube.svg" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="images/icon-twitter.svg" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="images/icon-pinterest.svg" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="images/icon-instagram.svg" alt="" /></a>
-        </li>
-      </ul>
-      <nav>
-        <a href="">About Us</a>
-        <a href="">Contact</a>
-        <a href="">Blog</a>
-        <a href="">Careers</a>
-        <a href="">Support</a>
-        <a href="">Privacy Policy</a>
+    <footer
+      class="flex flex-col items-center gap-10 bg-primary-900 py-10 px-24 text-neutral-300 sm:flex-row sm:justify-between"
+    >
+      <div class="flex flex-col items-center gap-11 sm:items-start">
+        <a href="#">
+          <img src="images/logo.svg" alt="" class="fill-current" />
+        </a>
+
+        <ul class="flex gap-6" role="list" aria-label="Social links">
+          <li>
+            <a href=""><img src="images/icon-facebook.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/icon-youtube.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/icon-twitter.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/icon-pinterest.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/icon-instagram.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <nav class="flex flex-col items-center gap-6 sm:block sm:columns-2">
+        <ul
+          class="space-y-4 text-center text-xl sm:text-left"
+          aria-label="Footer"
+          role="list"
+        >
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Support</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
       </nav>
 
-      <div>
+      <div class="flex flex-col items-center space-y-8 sm:items-end">
         <button
-          class="rounded-full bg-gradient-to-r from-primary-600 to-primary-500 px-10 py-4 text-xl text-neutral-50 sm:px-5 sm:py-2 sm:text-sm"
+          class="rounded-full bg-gradient-to-r from-primary-600 to-primary-500 px-11 py-4 text-xl text-neutral-50 sm:px-5 sm:py-2 sm:text-sm"
         >
           Request Invite
         </button>
-        <p>&copy; Easybank. All Rights Reserved</p>
+        <p class="text-xl text-neutral-500">
+          &copy; Easybank. All Rights Reserved
+        </p>
       </div>
     </footer>
   </body>
